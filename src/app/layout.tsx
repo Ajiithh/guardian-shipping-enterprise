@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Guardian Shipping",
@@ -88,6 +89,9 @@ export default function RootLayout({
         {/* Page Content */}
         <main>{children}</main>
 
+        <WhatsAppButton />
+        className="fixed bottom-6 right-6 z-50 flex items-center gap-3 bg-white shadow-2xl rounded-full px-5 py-3 border hover:scale-105 transition-all duration-300 animate-pulse"
+       
         {/* ================= FOOTER ================= */}
         <footer className="bg-[#102847] text-white">
           <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10">

@@ -36,6 +36,7 @@ export async function POST(
 
         to: [
           "info@guardianshipping.com",
+          "ajith@guardianshipping.com",
         ],
 
         subject:

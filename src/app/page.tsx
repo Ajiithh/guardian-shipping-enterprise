@@ -13,6 +13,12 @@ const images = [
   "/images/guardian-shipping-moving-forward.webp",
 ];
 
+export const metadata = {
+  title: "Guardian Shipping | Logistics Company in Qatar",
+  description:
+    "Trusted logistics, relocation and cargo solutions in Qatar.",
+};
+
 export default function HomePage() {
   const [index, setIndex] = useState(0);
 

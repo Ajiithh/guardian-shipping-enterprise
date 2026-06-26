@@ -2,6 +2,12 @@
 
 import Link from "next/link";
 
+export const metadata = {
+  title: "About Guardian Shipping",
+  description:
+    "Learn about Guardian Shipping and our logistics expertise in Qatar.",
+};
+
 export default function AboutUsPage() {
   return (
     <main className="overflow-hidden bg-white">

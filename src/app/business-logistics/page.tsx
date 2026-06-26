@@ -2,6 +2,12 @@
 
 import Link from "next/link";
 
+export const metadata = {
+  title: "Business Logistics Solutions Qatar",
+  description:
+    "Reliable business logistics, cargo and freight solutions in Qatar.",
+};
+
 export default function BusinessLogisticsPage() {
   return (
     <main className="overflow-hidden bg-white">

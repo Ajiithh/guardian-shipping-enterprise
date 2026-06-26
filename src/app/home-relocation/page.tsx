@@ -2,6 +2,12 @@
 
 import Link from "next/link";
 
+export const metadata = {
+  title: "Home Relocation Services Qatar",
+  description:
+    "Professional home relocation and moving services in Qatar.",
+};
+
 export default function HomeRelocationPage() {
   return (
     <main className="overflow-hidden bg-white">

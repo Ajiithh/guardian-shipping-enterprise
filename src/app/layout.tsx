@@ -5,8 +5,17 @@ import Link from "next/link";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Guardian Shipping",
-  description: "Your Logistics Guardian",
+  title: "Guardian Shipping | Logistics & Relocation Services in Qatar",
+  description:
+    "Guardian Shipping offers premium logistics, cargo, freight forwarding, relocation, warehousing and shipping services across Qatar and internationally.",
+  keywords: [
+    "logistics company qatar",
+    "shipping company qatar",
+    "cargo services qatar",
+    "freight forwarding qatar",
+    "relocation services qatar",
+    "warehouse services qatar"
+  ],
 };
 
 export default function RootLayout({

@@ -14,7 +14,13 @@ export const metadata: Metadata = {
     "cargo services qatar",
     "freight forwarding qatar",
     "relocation services qatar",
-    "warehouse services qatar"
+    "warehouse services qatar",
+    "movers qatar",
+    "moving services qatar",
+    "storage services qatar",
+    "home relocation qatar",
+    "packers and movers qatar",
+    "No.1 moving team qatar"
   ],
 };
 
